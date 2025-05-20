@@ -1,22 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+  <meta charset="UTF-8">
+  <title>Portfólio - Michelle</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f3eb; /* Bege claro */
+      color: #2e473b; /* Verde escuro suave */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #4b5d50;
+      margin-bottom: 24px;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .highlight {
+      font-style: italic;
+      color: #2e473b;
+      background-color: #e4f1ea;
+      padding: 8px 12px;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 24px;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #3d3d3d;
+    }
+
+    .contact a {
+      color: #2e473b;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <img src="img/avatar-perfil.png" alt="avatar da Michelle" srcset="">
-    <p>Eu sou Michelle_</p>
-    <h1>Faço Programação</h1>
-    <p>Sou Estudante. Atualmente faço diversos projetos usando HTML, CSS e JavaScript. Veja os projetos que já desenvolvi! </p>
-    <p>Minhas habilidades</p>
-    <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Scratch</p>
+  <div class="card">
+    <div class="title">Michelle</div>
+    <div class="subtitle">Estudante de programação | 16 anos</div>
+    <div class="description">
+      Estudando desenvolvimento Full Stack pelo Alura.<br>
+      Programando há 1 ano e meio com dedicação.<br>
+      Apaixonada por criar, testar e aprender códigos novos todos os dias.
     </div>
+    <div class="highlight">"Codificando sonhos, linha por linha."</div>
+    <div class="contact">
+      GitHub: <a href="https://github.com/michelle" target="_blank">github.com/michelle</a><br>
+      Email: <a href="mailto:0000114108689xsp@al.educacao.sp.gov.br">0000114108689xsp@al.educacao.sp.gov.br</a>
+    </div>
+  </div>
 </body>
 </html>
